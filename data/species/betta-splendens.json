@@ -1,0 +1,13 @@
+{
+  "id": "betta-splendens",
+  "kind": "fish",
+  "scientificName": "Betta splendens",
+  "commonNames": { "pt-PT": ["Betta", "Combatente"], "pt-BR": ["Betta", "Peixe-de-briga"] },
+  "water": {
+    "temperatureC": { "min": 24, "max": 30 },
+    "ph": { "min": 6, "max": 8 },
+    "ghDegrees": { "min": 3, "max": 20 }
+  },
+  "reviewed": false,
+  "sources": []
+}

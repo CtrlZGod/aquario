@@ -1,0 +1,16 @@
+{
+  "id": "carassius-auratus",
+  "kind": "fish",
+  "scientificName": "Carassius auratus",
+  "commonNames": {
+    "pt-PT": ["Peixe-dourado", "Peixe-vermelho"],
+    "pt-BR": ["Kinguio", "Peixe-dourado"]
+  },
+  "water": {
+    "temperatureC": { "min": 10, "max": 23 },
+    "ph": { "min": 6.5, "max": 8.5 },
+    "ghDegrees": { "min": 5, "max": 20 }
+  },
+  "reviewed": false,
+  "sources": []
+}

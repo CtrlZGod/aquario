@@ -1,0 +1,29 @@
+{
+  "name": "@aquario/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "typecheck": "astro check",
+    "test": "echo \"sem testes em apps/web\""
+  },
+  "dependencies": {
+    "@aquario/calc": "workspace:*",
+    "@aquario/engine": "workspace:*",
+    "@astrojs/react": "^7.1.7",
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "^7.4.10",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^6.0.3"
+  }
+}

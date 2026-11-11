@@ -1,0 +1,13 @@
+{
+  "id": "paracheirodon-innesi",
+  "kind": "fish",
+  "scientificName": "Paracheirodon innesi",
+  "commonNames": { "pt-PT": ["Néon", "Tetra néon"], "pt-BR": ["Neon", "Tetra neon"] },
+  "water": {
+    "temperatureC": { "min": 21, "max": 26 },
+    "ph": { "min": 5.5, "max": 7.5 },
+    "ghDegrees": { "min": 1, "max": 12 }
+  },
+  "reviewed": false,
+  "sources": []
+}

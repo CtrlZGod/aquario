@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import CompatibilityChecker from '../../components/CompatibilityChecker';
+import { allSpecies } from '../../lib/species';
+---
+
+<Base
+  title="Compatibilidade de espécies"
+  description="Verifica se as espécies escolhidas partilham gamas de temperatura, pH e dureza."
+>
+  <h1 class="text-2xl font-semibold">Compatibilidade</h1>
+  <p class="mt-2 text-slate-600">
+    Versão inicial: só compara temperatura, pH e GH. Os dados ainda não foram revistos.
+  </p>
+  <CompatibilityChecker species={allSpecies} client:load />
+</Base>
